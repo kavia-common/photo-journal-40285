@@ -946,3 +946,410 @@
 2025-10-31 13:39:03,711 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 242, Duration: 0ms
 2025-10-31 13:39:03,914 - Knowledge - INFO - Saving knowledge to Redis...
 2025-10-31 13:39:04,117 - Knowledge - INFO - Knowledge saved to Redis successfully
+2025-10-31 13:39:51,891 - Knowledge - INFO - Created shared MongoDB connection pool
+2025-10-31 13:39:52,167 - Knowledge - INFO - Starting Knowledge Graph processing with 50 threads
+2025-10-31 13:39:52,400 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2025-10-31 13:39:53,493 - Knowledge - INFO - load persisted knowledge: begin
+2025-10-31 13:39:54,008 - Knowledge - INFO - Persisted knowledge files in /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/.knowledge have been renamed to use .json
+2025-10-31 13:39:54,223 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:39:54,425 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:39:54,642 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/java/com/photojournal/MainActivity.java
+2025-10-31 13:39:54,835 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:39:55,031 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:39:55,200 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/AppDelegate.h
+2025-10-31 13:39:55,409 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:39:55,598 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:39:55,787 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/PhotoView/index.js
+2025-10-31 13:39:56,008 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:39:56,189 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:39:56,388 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+2025-10-31 13:39:56,553 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:39:56,720 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:39:56,938 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/debug/java/com/photojournal/ReactNativeFlipper.java
+2025-10-31 13:39:57,128 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:39:57,276 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:39:57,462 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/Home/index.js
+2025-10-31 13:39:57,636 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:39:57,784 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:39:57,960 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/Images.xcassets/SplashScreenBackground.imageset/Contents.json
+2025-10-31 13:39:58,123 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:39:58,293 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:39:58,503 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/debug/AndroidManifest.xml
+2025-10-31 13:39:58,705 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:39:58,886 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:39:59,080 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/values/colors.xml
+2025-10-31 13:39:59,295 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:39:59,485 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:39:59,654 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/DayView/index.js
+2025-10-31 13:39:59,850 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:00,029 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:00,205 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/Images.xcassets/SplashScreen.imageset/Contents.json
+2025-10-31 13:40:00,399 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:00,584 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:00,749 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/App.js
+2025-10-31 13:40:00,934 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:01,103 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:01,285 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/values/strings.xml
+2025-10-31 13:40:01,452 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:01,630 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:01,812 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/package.json
+2025-10-31 13:40:01,997 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:02,216 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:02,402 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/navigation/StackNavigator.js
+2025-10-31 13:40:02,581 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:02,728 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:02,912 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/AndroidManifest.xml
+2025-10-31 13:40:03,088 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:03,290 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:03,485 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/react-native.config.js
+2025-10-31 13:40:03,663 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:03,830 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:04,011 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/Images.xcassets/AppIcon.appiconset/Contents.json
+2025-10-31 13:40:04,221 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:04,369 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:04,547 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/__tests__/App.js
+2025-10-31 13:40:04,719 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:04,890 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:05,083 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/values/styles.xml
+2025-10-31 13:40:05,235 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:05,434 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:05,613 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/utilities/common.js
+2025-10-31 13:40:05,767 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:05,979 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:06,154 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/metro.config.js
+2025-10-31 13:40:06,351 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:06,542 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:06,724 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/components/Item.js
+2025-10-31 13:40:06,903 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:07,091 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:07,252 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/main.m
+2025-10-31 13:40:07,450 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:07,632 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:07,801 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/settings.gradle
+2025-10-31 13:40:07,989 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:08,168 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:08,392 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/app.json
+2025-10-31 13:40:08,540 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:08,725 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:08,888 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/Summary/index.js
+2025-10-31 13:40:09,117 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:09,288 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:09,462 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/Summary/components/Item.js
+2025-10-31 13:40:09,626 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:09,815 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:09,978 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/AppDelegate.m
+2025-10-31 13:40:10,152 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:10,369 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:10,527 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/babel.config.js
+2025-10-31 13:40:10,681 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:10,826 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:11,020 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/README.md
+2025-10-31 13:40:11,205 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:11,383 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:11,553 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/build.gradle
+2025-10-31 13:40:11,772 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:11,949 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:12,129 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/build.gradle
+2025-10-31 13:40:12,347 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:12,516 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:12,737 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/Images.xcassets/Contents.json
+2025-10-31 13:40:12,916 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:13,157 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:13,346 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/jsconfig.json
+2025-10-31 13:40:13,526 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:13,707 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:13,873 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/index.js
+2025-10-31 13:40:14,032 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:14,215 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:14,454 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/navigation/TabNavigator.js
+2025-10-31 13:40:14,631 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:14,801 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:14,997 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/proguard-rules.pro
+2025-10-31 13:40:15,201 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:15,425 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:15,611 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/components/FloatingButton.js
+2025-10-31 13:40:15,817 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:15,975 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:16,158 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+2025-10-31 13:40:16,348 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:16,562 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:16,761 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/java/com/photojournal/MainApplication.java
+2025-10-31 13:40:16,984 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:17,160 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:17,324 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/java/com/photojournal/generated/BasePackageList.java
+2025-10-31 13:40:17,543 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:17,699 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:17,874 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/CameraView/index.js
+2025-10-31 13:40:18,065 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/photo-journal-40285.git:kavia-main
+2025-10-31 13:40:18,283 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4729750190>
+2025-10-31 13:40:18,442 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/drawable/splashscreen.xml
+2025-10-31 13:40:18,628 - Knowledge - INFO - Loaded 44 files from persisted knowledge
+2025-10-31 13:40:18,810 - Knowledge - INFO - load persisted knowledge: end
+2025-10-31 13:40:19,012 - Knowledge - INFO - Redis support added with prefix knowledge:b5320g6:
+2025-10-31 13:40:19,427 - Knowledge - INFO - load persisted docinfo: begin
+2025-10-31 13:40:19,587 - Knowledge - INFO - load persisted docinfo: end
+2025-10-31 13:40:19,794 - Knowledge - INFO - Worker kw1 created using shared MongoDB connection pool
+2025-10-31 13:40:19,986 - Knowledge - INFO - knowledge worker kw1 start
+2025-10-31 13:40:19,987 - Knowledge - INFO - Worker kw2 created using shared MongoDB connection pool
+2025-10-31 13:40:20,204 - Knowledge - INFO - [kw1] Queue=44, InProgress=0, PendingWorkers=0/1, Completed=0/44 (0.0%)
+2025-10-31 13:40:20,317 - Knowledge - INFO - knowledge worker kw2 start
+2025-10-31 13:40:20,318 - Knowledge - INFO - Worker kw3 created using shared MongoDB connection pool
+2025-10-31 13:40:20,412 - Knowledge - INFO - Dynamic batch size: 40 for queue=44
+2025-10-31 13:40:20,556 - Knowledge - INFO - [kw2] Queue=44, InProgress=0, PendingWorkers=0/2, Completed=0/44 (0.0%)
+2025-10-31 13:40:20,665 - Knowledge - INFO - knowledge worker kw3 start
+2025-10-31 13:40:20,665 - Knowledge - INFO - Worker kw4 created using shared MongoDB connection pool
+2025-10-31 13:40:20,764 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/java/com/photojournal/MainActivity.java
+2025-10-31 13:40:20,844 - Knowledge - INFO - Dynamic batch size: 20 for queue=44
+2025-10-31 13:40:20,950 - Knowledge - INFO - [kw3] Queue=4, InProgress=0, PendingWorkers=1/3, Completed=0/44 (0.0%)
+2025-10-31 13:40:21,048 - Knowledge - INFO - knowledge worker kw4 start
+2025-10-31 13:40:21,048 - Knowledge - INFO - Worker kw5 created using shared MongoDB connection pool
+2025-10-31 13:40:21,157 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/java/com/photojournal/MainActivity.java (ext=.java, size=1411)
+2025-10-31 13:40:21,255 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/java/com/photojournal/MainApplication.java
+2025-10-31 13:40:21,330 - Knowledge - INFO - Dynamic batch size: 4 for queue=4
+2025-10-31 13:40:21,595 - Knowledge - INFO - knowledge worker kw5 start
+2025-10-31 13:40:21,596 - Knowledge - INFO - Worker kw6 created using shared MongoDB connection pool
+2025-10-31 13:40:21,730 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/AppDelegate.h
+2025-10-31 13:40:21,871 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/java/com/photojournal/generated/BasePackageList.java
+2025-10-31 13:40:22,154 - Knowledge - INFO - knowledge worker kw6 start
+2025-10-31 13:40:22,156 - Knowledge - INFO - Worker kw7 created using shared MongoDB connection pool
+2025-10-31 13:40:22,255 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/AppDelegate.h (ext=.h, size=285)
+2025-10-31 13:40:22,369 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/java/com/photojournal/generated/BasePackageList.java (ext=.java, size=1098)
+2025-10-31 13:40:22,549 - Knowledge - INFO - knowledge worker kw7 start
+2025-10-31 13:40:22,550 - Knowledge - INFO - Worker kw8 created using shared MongoDB connection pool
+2025-10-31 13:40:22,630 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/PhotoView/index.js
+2025-10-31 13:40:22,705 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/CameraView/index.js
+2025-10-31 13:40:22,929 - Knowledge - INFO - knowledge worker kw8 start
+2025-10-31 13:40:22,929 - Knowledge - INFO - Worker kw9 created using shared MongoDB connection pool
+2025-10-31 13:40:23,026 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/PhotoView/index.js (ext=.js, size=466)
+2025-10-31 13:40:23,118 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/drawable/splashscreen.xml
+2025-10-31 13:40:23,310 - Knowledge - INFO - knowledge worker kw9 start
+2025-10-31 13:40:23,310 - Knowledge - INFO - Worker kw10 created using shared MongoDB connection pool
+2025-10-31 13:40:23,400 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+2025-10-31 13:40:23,484 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/drawable/splashscreen.xml (ext=.xml, size=308)
+2025-10-31 13:40:23,671 - Knowledge - INFO - knowledge worker kw10 start
+2025-10-31 13:40:23,672 - Knowledge - INFO - Worker kw11 created using shared MongoDB connection pool
+2025-10-31 13:40:23,772 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml (ext=.xml, size=257)
+2025-10-31 13:40:24,041 - Knowledge - INFO - knowledge worker kw11 start
+2025-10-31 13:40:24,042 - Knowledge - INFO - Worker kw12 created using shared MongoDB connection pool
+2025-10-31 13:40:24,146 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/debug/java/com/photojournal/ReactNativeFlipper.java
+2025-10-31 13:40:24,332 - Knowledge - INFO - knowledge worker kw12 start
+2025-10-31 13:40:24,333 - Knowledge - INFO - Worker kw13 created using shared MongoDB connection pool
+2025-10-31 13:40:24,424 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/Home/index.js
+2025-10-31 13:40:24,636 - Knowledge - INFO - knowledge worker kw13 start
+2025-10-31 13:40:24,637 - Knowledge - INFO - Worker kw14 created using shared MongoDB connection pool
+2025-10-31 13:40:24,747 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/Home/index.js (ext=.js, size=1663)
+2025-10-31 13:40:24,941 - Knowledge - INFO - knowledge worker kw14 start
+2025-10-31 13:40:24,942 - Knowledge - INFO - Worker kw15 created using shared MongoDB connection pool
+2025-10-31 13:40:25,011 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/Images.xcassets/SplashScreenBackground.imageset/Contents.json
+2025-10-31 13:40:25,203 - Knowledge - INFO - knowledge worker kw15 start
+2025-10-31 13:40:25,203 - Knowledge - INFO - Worker kw16 created using shared MongoDB connection pool
+2025-10-31 13:40:25,292 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/Images.xcassets/SplashScreenBackground.imageset/Contents.json (ext=.json, size=296)
+2025-10-31 13:40:25,489 - Knowledge - INFO - knowledge worker kw16 start
+2025-10-31 13:40:25,490 - Knowledge - INFO - Worker kw17 created using shared MongoDB connection pool
+2025-10-31 13:40:25,598 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/debug/AndroidManifest.xml
+2025-10-31 13:40:25,753 - Knowledge - INFO - knowledge worker kw17 start
+2025-10-31 13:40:25,754 - Knowledge - INFO - Worker kw18 created using shared MongoDB connection pool
+2025-10-31 13:40:25,855 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/debug/AndroidManifest.xml (ext=.xml, size=329)
+2025-10-31 13:40:26,048 - Knowledge - INFO - knowledge worker kw18 start
+2025-10-31 13:40:26,049 - Knowledge - INFO - Worker kw19 created using shared MongoDB connection pool
+2025-10-31 13:40:26,167 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/values/colors.xml
+2025-10-31 13:40:26,409 - Knowledge - INFO - knowledge worker kw19 start
+2025-10-31 13:40:26,409 - Knowledge - INFO - Worker kw20 created using shared MongoDB connection pool
+2025-10-31 13:40:26,503 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/values/colors.xml (ext=.xml, size=228)
+2025-10-31 13:40:26,671 - Knowledge - INFO - knowledge worker kw20 start
+2025-10-31 13:40:26,671 - Knowledge - INFO - Worker kw21 created using shared MongoDB connection pool
+2025-10-31 13:40:26,789 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/DayView/index.js
+2025-10-31 13:40:27,018 - Knowledge - INFO - knowledge worker kw21 start
+2025-10-31 13:40:27,019 - Knowledge - INFO - Worker kw22 created using shared MongoDB connection pool
+2025-10-31 13:40:27,098 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/DayView/index.js (ext=.js, size=1783)
+2025-10-31 13:40:27,322 - Knowledge - INFO - knowledge worker kw22 start
+2025-10-31 13:40:27,322 - Knowledge - INFO - Worker kw23 created using shared MongoDB connection pool
+2025-10-31 13:40:27,400 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/Images.xcassets/SplashScreen.imageset/Contents.json
+2025-10-31 13:40:27,628 - Knowledge - INFO - knowledge worker kw23 start
+2025-10-31 13:40:27,629 - Knowledge - INFO - Worker kw24 created using shared MongoDB connection pool
+2025-10-31 13:40:27,700 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/Images.xcassets/SplashScreen.imageset/Contents.json (ext=.json, size=298)
+2025-10-31 13:40:27,910 - Knowledge - INFO - knowledge worker kw24 start
+2025-10-31 13:40:27,910 - Knowledge - INFO - Worker kw25 created using shared MongoDB connection pool
+2025-10-31 13:40:28,002 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/App.js
+2025-10-31 13:40:28,205 - Knowledge - INFO - knowledge worker kw25 start
+2025-10-31 13:40:28,206 - Knowledge - INFO - Worker kw26 created using shared MongoDB connection pool
+2025-10-31 13:40:28,280 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/App.js (ext=.js, size=965)
+2025-10-31 13:40:28,513 - Knowledge - INFO - knowledge worker kw26 start
+2025-10-31 13:40:28,514 - Knowledge - INFO - Worker kw27 created using shared MongoDB connection pool
+2025-10-31 13:40:28,601 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/values/strings.xml
+2025-10-31 13:40:28,785 - Knowledge - INFO - knowledge worker kw27 start
+2025-10-31 13:40:28,785 - Knowledge - INFO - Worker kw28 created using shared MongoDB connection pool
+2025-10-31 13:40:28,891 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/values/strings.xml (ext=.xml, size=128)
+2025-10-31 13:40:29,068 - Knowledge - INFO - knowledge worker kw28 start
+2025-10-31 13:40:29,069 - Knowledge - INFO - Worker kw29 created using shared MongoDB connection pool
+2025-10-31 13:40:29,165 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/package.json
+2025-10-31 13:40:29,348 - Knowledge - INFO - knowledge worker kw29 start
+2025-10-31 13:40:29,348 - Knowledge - INFO - Worker kw30 created using shared MongoDB connection pool
+2025-10-31 13:40:29,470 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/package.json (ext=.json, size=1830)
+2025-10-31 13:40:29,648 - Knowledge - INFO - knowledge worker kw30 start
+2025-10-31 13:40:29,742 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/navigation/StackNavigator.js
+2025-10-31 13:40:29,956 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/navigation/StackNavigator.js (ext=.js, size=1318)
+2025-10-31 13:40:30,151 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/AndroidManifest.xml
+2025-10-31 13:40:30,336 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/AndroidManifest.xml (ext=.xml, size=3371)
+2025-10-31 13:40:30,544 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/react-native.config.js
+2025-10-31 13:40:30,732 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/react-native.config.js (ext=.js, size=139)
+2025-10-31 13:40:30,902 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/Images.xcassets/AppIcon.appiconset/Contents.json
+2025-10-31 13:40:31,105 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/Images.xcassets/AppIcon.appiconset/Contents.json (ext=.json, size=2432)
+2025-10-31 13:40:31,275 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/__tests__/App.js
+2025-10-31 13:40:31,421 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/__tests__/App.js (ext=.js, size=246)
+2025-10-31 13:40:31,630 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/values/styles.xml
+2025-10-31 13:40:31,803 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/values/styles.xml (ext=.xml, size=676)
+2025-10-31 13:40:31,904 - Knowledge - INFO - [LLM_CALL] Completed: index.js:chunk1, Duration: 7126ms, PromptTokens: 2112, CompletionTokens: 342, Cost: $0.00000
+2025-10-31 13:40:32,000 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/utilities/common.js
+2025-10-31 13:40:32,103 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/CameraView/index.js
+2025-10-31 13:40:32,186 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/utilities/common.js (ext=.js, size=141)
+2025-10-31 13:40:32,450 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/metro.config.js
+2025-10-31 13:40:32,663 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/metro.config.js (ext=.js, size=99)
+2025-10-31 13:40:32,811 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/components/Item.js
+2025-10-31 13:40:32,995 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/main.m
+2025-10-31 13:40:33,161 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/main.m (ext=.m, size=201)
+2025-10-31 13:40:33,337 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/settings.gradle
+2025-10-31 13:40:33,552 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/settings.gradle (ext=.gradle, size=295)
+2025-10-31 13:40:33,767 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/app.json
+2025-10-31 13:40:33,941 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/app.json (ext=.json, size=492)
+2025-10-31 13:40:34,097 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/Summary/index.js
+2025-10-31 13:40:34,293 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/Summary/components/Item.js
+2025-10-31 13:40:34,460 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/Summary/components/Item.js (ext=.js, size=721)
+2025-10-31 13:40:34,655 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/AppDelegate.m
+2025-10-31 13:40:34,902 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/babel.config.js
+2025-10-31 13:40:34,964 - Knowledge - INFO - [LLM_CALL] Completed: MainApplication.java:chunk1, Duration: 11123ms, PromptTokens: 4468, CompletionTokens: 930, Cost: $0.00000
+2025-10-31 13:40:35,059 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/babel.config.js (ext=.js, size=260)
+2025-10-31 13:40:35,192 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/java/com/photojournal/MainApplication.java
+2025-10-31 13:40:35,271 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/README.md
+2025-10-31 13:40:35,432 - Knowledge - INFO - Processing batch of 4 files
+2025-10-31 13:40:35,462 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/README.md (ext=.md, size=460)
+2025-10-31 13:40:35,597 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/java/com/photojournal/MainApplication.java
+2025-10-31 13:40:35,683 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/build.gradle
+2025-10-31 13:40:35,775 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/java/com/photojournal/generated/BasePackageList.java
+2025-10-31 13:40:35,888 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/build.gradle (ext=.gradle, size=1173)
+2025-10-31 13:40:36,001 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/CameraView/index.js
+2025-10-31 13:40:36,077 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/build.gradle
+2025-10-31 13:40:36,194 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/drawable/splashscreen.xml
+2025-10-31 13:40:36,312 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/Images.xcassets/Contents.json
+2025-10-31 13:40:36,508 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/Images.xcassets/Contents.json (ext=.json, size=63)
+2025-10-31 13:40:36,680 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/jsconfig.json
+2025-10-31 13:40:36,900 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/jsconfig.json (ext=.json, size=46)
+2025-10-31 13:40:37,102 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/index.js
+2025-10-31 13:40:37,275 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/index.js (ext=.js, size=315)
+2025-10-31 13:40:37,448 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/navigation/TabNavigator.js
+2025-10-31 13:40:37,628 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/navigation/TabNavigator.js (ext=.js, size=1615)
+2025-10-31 13:40:37,837 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/proguard-rules.pro
+2025-10-31 13:40:38,005 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/proguard-rules.pro (ext=.pro, size=435)
+2025-10-31 13:40:38,177 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/components/FloatingButton.js
+2025-10-31 13:40:38,330 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/components/FloatingButton.js (ext=.js, size=798)
+2025-10-31 13:40:38,532 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+2025-10-31 13:40:38,698 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml (ext=.xml, size=257)
+2025-10-31 13:40:48,512 - Knowledge - INFO - [LLM_CALL] Completed: Item.js:chunk1, Duration: 8858ms, PromptTokens: 6676, CompletionTokens: 1222, Cost: $0.00000
+2025-10-31 13:40:48,704 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/components/Item.js
+2025-10-31 13:40:49,229 - Knowledge - INFO - [LLM_CALL] Completed: index.js:chunk1, Duration: 8746ms, PromptTokens: 8872, CompletionTokens: 1565, Cost: $0.00000
+2025-10-31 13:40:49,379 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/Summary/index.js
+2025-10-31 13:40:49,919 - Knowledge - INFO - [LLM_CALL] Completed: build.gradle:chunk1, Duration: 7610ms, PromptTokens: 13804, CompletionTokens: 1981, Cost: $0.00000
+2025-10-31 13:40:50,088 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/build.gradle
+2025-10-31 13:40:55,418 - Knowledge - INFO - [LLM_CALL] Completed: ReactNativeFlipper.java:chunk1, Duration: 16556ms, PromptTokens: 15810, CompletionTokens: 2783, Cost: $0.00000
+2025-10-31 13:40:55,587 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/debug/java/com/photojournal/ReactNativeFlipper.java
+2025-10-31 13:41:00,675 - Knowledge - INFO - [LLM_CALL] Completed: AppDelegate.m:chunk1, Duration: 19242ms, PromptTokens: 18708, CompletionTokens: 3912, Cost: $0.00000
+2025-10-31 13:41:00,883 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/AppDelegate.m
+2025-10-31 13:41:01,276 - Knowledge - INFO - Processing batch of 40 files
+2025-10-31 13:41:01,474 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/java/com/photojournal/MainActivity.java
+2025-10-31 13:41:01,687 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/AppDelegate.h
+2025-10-31 13:41:01,889 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/PhotoView/index.js
+2025-10-31 13:41:02,087 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+2025-10-31 13:41:02,270 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/debug/java/com/photojournal/ReactNativeFlipper.java
+2025-10-31 13:41:02,440 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/Home/index.js
+2025-10-31 13:41:02,663 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/Images.xcassets/SplashScreenBackground.imageset/Contents.json
+2025-10-31 13:41:02,863 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/debug/AndroidManifest.xml
+2025-10-31 13:41:03,066 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/values/colors.xml
+2025-10-31 13:41:03,235 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/DayView/index.js
+2025-10-31 13:41:03,408 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/Images.xcassets/SplashScreen.imageset/Contents.json
+2025-10-31 13:41:03,561 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/App.js
+2025-10-31 13:41:03,748 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/values/strings.xml
+2025-10-31 13:41:03,960 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/package.json
+2025-10-31 13:41:04,175 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/navigation/StackNavigator.js
+2025-10-31 13:41:04,371 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/AndroidManifest.xml
+2025-10-31 13:41:04,571 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/react-native.config.js
+2025-10-31 13:41:04,760 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/Images.xcassets/AppIcon.appiconset/Contents.json
+2025-10-31 13:41:04,967 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/__tests__/App.js
+2025-10-31 13:41:05,152 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/values/styles.xml
+2025-10-31 13:41:05,370 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/utilities/common.js
+2025-10-31 13:41:05,572 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/metro.config.js
+2025-10-31 13:41:05,761 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/components/Item.js
+2025-10-31 13:41:05,950 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/main.m
+2025-10-31 13:41:06,128 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/settings.gradle
+2025-10-31 13:41:06,304 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/app.json
+2025-10-31 13:41:06,470 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/Summary/index.js
+2025-10-31 13:41:06,635 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/screens/Summary/components/Item.js
+2025-10-31 13:41:06,812 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/AppDelegate.m
+2025-10-31 13:41:07,035 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/babel.config.js
+2025-10-31 13:41:07,220 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/README.md
+2025-10-31 13:41:07,432 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/build.gradle
+2025-10-31 13:41:07,624 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/build.gradle
+2025-10-31 13:41:07,808 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/ios/PhotoJournal/Images.xcassets/Contents.json
+2025-10-31 13:41:08,002 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/jsconfig.json
+2025-10-31 13:41:08,216 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/index.js
+2025-10-31 13:41:08,428 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/navigation/TabNavigator.js
+2025-10-31 13:41:08,606 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/proguard-rules.pro
+2025-10-31 13:41:08,763 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/src/components/FloatingButton.js
+2025-10-31 13:41:08,924 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/40285/b5320g6/photo-journal-40285/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+2025-10-31 13:41:12,555 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 245, Duration: 0ms
+2025-10-31 13:41:12,742 - Knowledge - INFO - [WEBSOCKET] Sent: Type=unknown, Size: ?, Duration: 187ms
+2025-10-31 13:41:12,922 - Knowledge - INFO - Progress: 100.0% | Files: 44/44 | Rate: 0.55 files/sec | Queue: 0
+2025-10-31 13:41:13,105 - Knowledge - INFO - Knowledge creation complete
+2025-10-31 13:41:13,289 - Knowledge - INFO - ==================================================
+2025-10-31 13:41:13,467 - Knowledge - INFO - KNOWLEDGE GRAPH GENERATION PERFORMANCE SUMMARY
+2025-10-31 13:41:13,678 - Knowledge - INFO - ==================================================
+2025-10-31 13:41:13,891 - Knowledge - INFO - Total processing time: 81.40 seconds (1.36 minutes)
+2025-10-31 13:41:14,076 - Knowledge - INFO - Files processed: 0
+2025-10-31 13:41:14,297 - Knowledge - INFO - Processing rate: 0.00 files/second
+2025-10-31 13:41:14,487 - Knowledge - INFO - 
+[TIME_BREAKDOWN]
+2025-10-31 13:41:14,683 - Knowledge - INFO - File Reading: 0.00s (0.0%)
+2025-10-31 13:41:14,877 - Knowledge - INFO - LLM Processing: 79.26s (97.4%)
+2025-10-31 13:41:15,045 - Knowledge - INFO - MongoDB Operations: 0.00s (0.0%)
+2025-10-31 13:41:15,237 - Knowledge - INFO - Redis Operations: 0.00s (0.0%)
+2025-10-31 13:41:15,441 - Knowledge - INFO - WebSocket Communication: 0.19s (0.2%)
+2025-10-31 13:41:15,654 - Knowledge - INFO - Other Overhead: 1.95s (2.4%)
+2025-10-31 13:41:15,840 - Knowledge - INFO - 
+[LLM_STATS]
+2025-10-31 13:41:16,017 - Knowledge - INFO - Total LLM calls: 7
+2025-10-31 13:41:16,170 - Knowledge - INFO - Average LLM response time: 11323ms
+2025-10-31 13:41:16,352 - Knowledge - INFO - Average prompt tokens: 10064.3
+2025-10-31 13:41:16,523 - Knowledge - INFO - Average completion tokens: 1819.3
+2025-10-31 13:41:16,713 - Knowledge - INFO - Total prompt tokens: 70450
+2025-10-31 13:41:16,910 - Knowledge - INFO - Total completion tokens: 12735
+2025-10-31 13:41:17,121 - Knowledge - INFO - Total LLM cost: $0.0000
+2025-10-31 13:41:17,306 - Knowledge - INFO - 
+[DATABASE_STATS]
+2025-10-31 13:41:17,507 - Knowledge - INFO - MongoDB operations: 0
+2025-10-31 13:41:17,688 - Knowledge - INFO - Redis operations: 0
+2025-10-31 13:41:17,839 - Knowledge - INFO - 
+[COMMUNICATION_STATS]
+2025-10-31 13:41:18,086 - Knowledge - INFO - WebSocket messages sent: 2
+2025-10-31 13:41:18,304 - Knowledge - INFO - Average message size: 122.5 bytes
+2025-10-31 13:41:18,501 - Knowledge - INFO - 
+[WORKER_STATS]
+2025-10-31 13:41:18,696 - Knowledge - INFO - 
+[FILE_TYPE_STATS]
+2025-10-31 13:41:18,893 - Knowledge - INFO - 
+[SLOWEST_FILES]
+2025-10-31 13:41:19,086 - Knowledge - INFO - ==================================================
+2025-10-31 13:41:19,291 - Knowledge - INFO - ==================================================
+2025-10-31 13:41:19,479 - Knowledge - INFO - KNOWLEDGE GRAPH GENERATION PERFORMANCE SUMMARY
+2025-10-31 13:41:19,660 - Knowledge - INFO - ==================================================
+2025-10-31 13:41:19,861 - Knowledge - INFO - Total processing time: 87.44 seconds (1.46 minutes)
+2025-10-31 13:41:20,066 - Knowledge - INFO - Files processed: 44 of 44
+2025-10-31 13:41:20,210 - Knowledge - INFO - Processing rate: 0.50 files/second
+2025-10-31 13:41:20,385 - Knowledge - INFO - WebSocket messages sent: 1
+2025-10-31 13:41:20,579 - Knowledge - INFO - MongoDB operations: 44
+2025-10-31 13:41:20,809 - Knowledge - INFO - Average MongoDB ops per file: 1.00
+2025-10-31 13:41:20,965 - Knowledge - INFO - LLM costs: $0.0027
+2025-10-31 13:41:21,150 - Knowledge - INFO - Prompt tokens: 18708
+2025-10-31 13:41:21,317 - Knowledge - INFO - Completion tokens: 3912
+2025-10-31 13:41:21,525 - Knowledge - INFO - Updating org costs, total cost: 0.0027059999999999996
+2025-10-31 13:41:21,740 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 242, Duration: 0ms
+2025-10-31 13:41:21,928 - Knowledge - INFO - Saving knowledge to Redis...
+2025-10-31 13:41:22,166 - Knowledge - INFO - Knowledge saved to Redis successfully
